@@ -1,0 +1,7 @@
+<p>
+    <button type="button" (click)="send_msg(true)" >Good</button>
+    <button type="button" (click)="send_msg(false)" >Bad</button>
+    <button type="button" (click)="reset()" >Reset</button>
+</p>
+<p *ngIf="clicked" >U've just messaged {{name}} with</p>
+<p>{{parent_msg}}</p>
